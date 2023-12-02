@@ -1,0 +1,70 @@
+:root {
+    --green: rgb(92, 152, 212);
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+    border: #FFFFFF solid 2px;
+    margin: 10px;
+    padding: 50px;
+    align-content: center;
+  }
+  
+  li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .btn {
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    
+
+  }
+  /* .toggleBtn {
+    margin-top: 1000px;
+
+  } */
